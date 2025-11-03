@@ -1,0 +1,22 @@
+{
+  "name": "gatewaybackend",
+  "version": "1.0.0",
+  "description": "HDFC payment encryption backend",
+  "main": "api/encrypt.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/encrypt.js"
+  },
+  "keywords": [
+    "hdfc",
+    "ccavenue",
+    "encryption",
+    "flutter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.21.2"
+  }
+}
